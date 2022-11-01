@@ -10,9 +10,9 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 IPAddress ip(192, 168, 2, 240);
 
 // Make sure to leave out the http and slashes!
-const char* server = "192.168.2.200";
-const char* mqttUser = "homeassistant";
-const char* mqttPassword = "vim1AiCeenai3eigah3aem1xeeQuietho8pooviekiem4gaijeethohniafounee";
+const char* server = "";
+const char* mqttUser = "";
+const char* mqttPassword = "";
 
 // Ethernet and MQTT related objects
 EthernetClient ethClient;
